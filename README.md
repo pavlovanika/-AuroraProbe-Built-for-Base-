@@ -153,11 +153,14 @@ https://github.com/coinbase/onchainkit
 ## Testnet Deployment (Base Sepolia)
 
 A smart contract has been deployed to the Base Sepolia test network for validation and testing purposes.
+
 Network: Base Sepolia
 chainId (decimal): 84532
 Explorer: https://sepolia.basescan.org
 Deployed contract address: 0xeb5a2d3cce9010b85092916a328bbce3a26cee14
+
 Basescan deployment and verification links:
+
 Contract address: https://sepolia.basescan.org/address/0xeb5a2d3cce9010b85092916a328bbce3a26cee14
 Contract verification (source code): https://sepolia.basescan.org/0xeb5a2d3cce9010b85092916a328bbce3a26cee14/0#code
 This deployment is used to validate Base-compatible tooling, account abstraction flows, and onchain read operations in a test environment prior to mainnet usage.
