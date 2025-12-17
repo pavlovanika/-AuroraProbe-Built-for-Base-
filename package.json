@@ -1,0 +1,46 @@
+{
+  "name": "aurora-probe-built-for-base",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "AuroraProbe – Built for Base. TypeScript/Vite project using a randomized set of Coinbase SDKs.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@coinbase/onchainkit": "^1.1.0",
+    "@coinbase/smart-wallet": "^0.6.0",
+    "@coinbase/x402": "^2.0.0",
+    "@coinbase/agentkit": "^0.6.0",
+    "@coinbase/cdp-sdk": "^1.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  },
+  "dependencyDescriptions": {
+    "@coinbase/onchainkit": {
+      "repo": "coinbase/onchainkit",
+      "why": "Base-first UI components and helpers for onchain-enabled applications."
+    },
+    "@coinbase/smart-wallet": {
+      "repo": "coinbase/smart-wallet",
+      "why": "Account abstraction and smart wallet workflows."
+    },
+    "@coinbase/x402": {
+      "repo": "coinbase/x402",
+      "why": "HTTP-native x402 payment flow for gated or payable endpoints."
+    },
+    "@coinbase/agentkit": {
+      "repo": "coinbase/agentkit",
+      "why": "Toolkit for agent-based and automated onchain interactions."
+    },
+    "@coinbase/cdp-sdk": {
+      "repo": "coinbase/cdp-sdk",
+      "why": "SDK for interacting with Coinbase Developer Platform services."
+    }
+  }
+}
